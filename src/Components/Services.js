@@ -1,12 +1,11 @@
-
-import classes from  "./AllCssStyle.module.css"
+import classes from "./AllCssStyle.module.css";
 import React, { useState } from "react";
 
 const Services = () => {
-    const [selectedbox, setSelectedBox] = useState("");
+  const [selectedbox, setSelectedBox] = useState("");
   return (
     <div>
-        <p className={classes.our_service}>Our Services</p>
+      <p className={classes.our_service}>Our Services</p>
       <div>
         <div className={classes.flex}>
           <div>
@@ -19,9 +18,6 @@ const Services = () => {
               Lorem Ipsum is simply dummy text of
             </div>
           </div>
-        
-
-
         </div>
         <div className={classes.prizeSection_row}>
           <div
@@ -51,21 +47,18 @@ const Services = () => {
                   Basic
                 </div>
                 <div className={classes.price}>
-                  Free{" "}
+                  Free
                   <div className={classes.Package_free}>
                     Free work posting :1
                   </div>
                 </div>
                 <div className={classes.offer}>
                   <div className={classes.offer_title}>
-                    Access to waitlist: 
+                    Access to waitlist:
                     <span className={classes.packege_icon}>Free</span>
                   </div>
                   <div className={classes.offer_title}>
                     Project Manager worth Rs.999
-
-
-                  
                   </div>
                 </div>
                 <button
@@ -106,10 +99,10 @@ const Services = () => {
                     selectedbox === "2" ? classes.title_active : classes.title
                   }
                 >
-                   Gold
+                  Gold
                 </div>
                 <div className={classes.price}>
-                  &#8377;229{" "}
+                  &#8377;229
                   <div className={classes.Package_free}>
                     Free work posting :5
                   </div>
@@ -121,7 +114,6 @@ const Services = () => {
                   </div>
                   <div className={classes.offer_title}>
                     Project Manager worth Rs.999{" "}
-                
                   </div>
                 </div>
                 <div>
@@ -154,7 +146,6 @@ const Services = () => {
           >
             <div className={classes.prizeSection_col2}>
               <p
-               
                 className={
                   selectedbox === "3"
                     ? classes.select_image_active
@@ -167,7 +158,7 @@ const Services = () => {
                     selectedbox === "3" ? classes.title_active : classes.title
                   }
                 >
-                 Premium
+                  Premium
                 </div>
                 <div className={classes.price}>
                   &#8377;749{" "}
@@ -177,12 +168,11 @@ const Services = () => {
                 </div>
                 <div className={classes.offer}>
                   <div className={classes.offer_title}>
-                    Access to waitlist:{" "}
+                    Access to waitlist:
                     <span className={classes.packege_icon}>Paid</span>
                   </div>
                   <div className={classes.offer_title}>
                     Project Manager worth Rs.999
-                  
                   </div>
                 </div>
                 <div>
@@ -204,9 +194,8 @@ const Services = () => {
           </div>
         </div>
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;
