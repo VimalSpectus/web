@@ -1,5 +1,7 @@
 import React from "react";
 import classes from  "./AllCssStyle.module.css"
+import { Link } from "react-router-dom";
+
 
 
 const SignIn = () => {
@@ -13,8 +15,8 @@ const SignIn = () => {
     <button type="Submit" className={classes.btn_sign}>Submit</button>
    <div className={classes.flex_p_b}>
     <span className={classes.need_signup}>Need a Signup</span>
+     <Link to="/ContactUs"  className={classes.click_sign}>click here</Link>
     
-     <span> <button  className={classes.click_sign}>click here</button></span>
     </div>  
     </div></div>
   );
