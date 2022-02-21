@@ -14,10 +14,16 @@ const Home = () => {
           Lorem Ipsum is simply dummy text of
         </div>
       </div>
-       <div className={classes.banners}>
-         <img className={classes.banner_img} src="photo-1446057032654-9d8885db76c6.jpg"/>
-         </div>
-        
+      <div className={classes.banners}>
+        <h2>See What They're Saying About This Website</h2>
+        <p>
+          See What They're Saying About Mighty “Mighty saved our practice
+          thousands of dollars on one case alone. We got a notification that the <br/>
+          case was settled, but the law firm accidentally paid the wrong
+          lienholder. If it wasn’t for Mighty, I <br/> may not have found out in time
+          to recover. It’s an essential tool for lienholders.”
+        </p>
+      </div>
     </div>
   );
 };
