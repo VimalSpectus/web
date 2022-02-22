@@ -35,12 +35,7 @@ const Header = () => {
               </Link>
               {/* here we can replace a to Link and href to To */}
             </li>
-            <li  className={classes.sign_li}>
-              <Link to="/ContactUs" className={classes.col}>
-                Sign Up
-              </Link>
-              {/* here we can replace a to Link and href to To */}
-            </li>
+        
           </ul>
         </nav>
 
