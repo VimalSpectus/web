@@ -11,7 +11,7 @@ const Header = () => {
         <nav>
           <ul className={classes.navigation_div}>
           <li>
-              <Link to="/Signln" className={classes.col}>
+              <Link to="/" className={classes.col}>
               SignIn
               </Link>
               {/* here we can replace a to Link and href to To */}
